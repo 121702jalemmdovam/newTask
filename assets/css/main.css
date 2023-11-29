@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  z-index: 4;
+  position: absolute;
+  background-color: transparent;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .navbar-light .navbar-brand {
+  color: rgba(248, 240, 240, 0.9);
+  font-weight: 800;
+}
+
+.collapseDiv {
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+}
+.collapseDiv .navRight {
+  width: 40%;
+  margin-left: 20px;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.collapseDiv .navRight a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-left: 13px;
+  background-color: aliceblue;
+}
+.collapseDiv .navRight a:hover {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+.collapseDiv .navRight p {
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.collapseDiv .navbar-nav li a {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 13px;
+  color: rgb(138, 135, 135) !important;
+  display: inline-block;
+}
+.collapseDiv .navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+#someplace {
+  width: 100%;
+  height: 650px;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  background-image: url("https://preview.colorlib.com/theme/hotell/images/about_1.jpg");
+}
+#someplace .container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#someplace .container .someplaceItem {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: center;
+}
+#someplace .container .someplaceItem h1 {
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+#someplace .container .someplaceItem button {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #00917c;
+  border: none;
+  cursor: pointer;
+}
+
+#OurServices {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f7f8;
+  align-items: center;
+}
+#OurServices .container {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+}
+#OurServices .container .OurServicesBox {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+#OurServices .container .OurServicesBox i {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #1E9E8B;
+}
+#OurServices .container .OurServicesBox h5 {
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+#OurServices .container .OurServicesBox p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+#OurServices .container .OurServicesBox a {
+  bottom: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: rgb(136, 136, 136);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(248, 240, 240, 0.9);
+}
